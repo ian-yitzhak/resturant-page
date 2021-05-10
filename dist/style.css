@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+
+	background: lightblue;
+}
 
 .topnav {
    
@@ -34,5 +38,103 @@
     color: white;
 }
 .home-section{
-	padding-left: 20px;
+	background-image: url("images/meal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+table {
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+.home-view{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+}
+.heading{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: blue;
+}
+.btn-secondary{
+ background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact-section{
+	display: flex;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	flex-direction: column;
+	padding: 50px;
+	margin: 60px;
+	
+	
+}
+.description{
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.container{
+	padding: 20px;
+}
+.image-section{
+
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 9px;
+grid-row-gap: 8px;
+
+
+}
+
+.hero-img{
+	margin: 20px;
+	padding: 50px;
+}
+input[type=text] {
+    width: 400px; 
+    padding: 15px; 
+    border: 1px solid blue; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    
+}
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact{
+
+	align-content: center;
+    justify-content: center;
+    text-align: center;
+
 }

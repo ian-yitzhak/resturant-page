@@ -1,7 +1,24 @@
 function loadContact() {
 
 	document.getElementById('div-stuff').innerHTML = `
-        <h1>This is the contact page</h1>
+        <div class="contact-section">
+
+        <h1> 078909747774 </h1>
+        
+         </div>
+
+         <div class="contact">
+
+         <form action="">
+		  First name:<br>
+		  <input type="text" name="firstname" >
+		  <br>
+		  Last name:<br>
+		  <input type="text" name="lastname">
+		  <br><br>
+		  <input type="submit" value="Submit">
+		</form> 
+		</div>
     `
    
 }

@@ -10,14 +10,18 @@ const pageLoad = () =>{
 
 	<section>
 	 <div class="container">
-            <h2>Food we have</h2>
-            <ul>
-                <li>Pizza</li>
-                <li>Burger</li>
-                <li>Cake</li>
-                <li>Fries</li>
-                <li>Hotdog</li>
-            </ul>
+            <center>WELCOME TO OUR RESTURANT , WE ARE HERE FOR YOU </center>
+
+
+
+            <div class="image-section">
+
+            <img class="hero-img" src="./images/meal.jpg" alt="">
+            <img class="hero-img" src="./images/meal.jpg" alt="">
+            <img class="hero-img" src="./images/meal.jpg" alt="">
+
+
+             </div>
         </div>
 
 	</section>

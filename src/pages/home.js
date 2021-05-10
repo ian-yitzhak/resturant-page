@@ -6,10 +6,26 @@ function loadHome() {
         <br>
         <br>
         <br>
-            <img class="hero-img" src="./images/meal.jpg" alt="">
+           <div class="home-view">
             
-            <h1 class="hero-heading">Eat with the Best</h1>
-            <h3 class="hero-heading-description"> Welcome to The aethetic food stop. Eat the <span>Tastiest Delicacies</span> with a view to behold</h3>
+            <h1 class="heading">THE BEST MEAL PROVIDERS</h1>
+            <h3 class="description"> 
+            welcome, we are here to serve you with the best food, the most delicous food of your choice</h3>
+
+              <br>
+             <br>
+
+
+             <button id="menu" class="btn btn-secondary"> Contact Us</button>
+
+             <br>
+             <br>
+
+             <button id="menu" class="btn btn-secondary">  Book A Meal</button>
+
+            </div>
+
+
         </section>      
     `
    
