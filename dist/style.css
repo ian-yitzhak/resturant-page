@@ -1,0 +1,38 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topnav {
+   
+    overflow: hidden;
+    background: black;
+    
+    padding: 30px;
+}
+
+
+.topnav button {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 150px;
+    text-decoration: none;
+    font-size: 17px;
+    background: red;
+}
+
+
+.topnav button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.home-section{
+	padding-left: 20px;
+}
