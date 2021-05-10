@@ -19,7 +19,7 @@ const pageLoad = () =>{
                 <div class="card">
               <img src="images/meal3.jpg" alt="" style="width:100%">
               <div class="container">
-                <h4><b>John Doe</b></h4>
+                <h4><b>meals</b></h4>
                 
               </div>
             </div>
@@ -27,15 +27,15 @@ const pageLoad = () =>{
              <div class="card">
               <img src="images/meal4.jpg" alt="" style="width:100%">
               <div class="container">
-                <h4><b>John Doe</b></h4>
+                <h4><b>meals</b></h4>
                 
               </div>
             </div>
 
              <div class="card">
-              <img src="images/meal2.jpg" alt="" style="width:100%">
+              <img src="images/meal4.jpg" alt="" style="width:100%">
               <div class="container">
-                <h4><b>John Doe</b></h4>
+                <h4><b>meals</b></h4>
                 
               </div>
             </div>

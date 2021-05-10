@@ -41,7 +41,7 @@ background: linear-gradient(to bottom, rgb(206,89,55) 0%, rgb(28,110,164) 35%, r
     color: white;
 }
 .home-section{
-	background-image: url("images/meal.jpg");
+	
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -89,7 +89,11 @@ tr:nth-child(even) {
 	flex-direction: column;
 	padding: 50px;
 	margin: 60px;
-	
+}
+.full-contact{
+background: rgb(36,10,0);
+background: linear-gradient(90deg, rgba(36,10,0,1) 100%, rgba(255,0,0,1) 100%, rgba(121,90,9,0.9724264705882353) 100%);
+
 	
 }
 .description{
@@ -117,13 +121,14 @@ grid-row-gap: 8px;
 }
 input[type=text] {
     width: 400px; 
-    padding: 15px; 
+    padding: 5px; 
     border: 1px solid blue; 
     border-radius: 10px; 
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical;
+    color: black;
     
 }
 input[type=submit] {
@@ -133,6 +138,9 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+.input-text{
+	color: white;
 }
 .contact{
 
