@@ -5,7 +5,10 @@
 }
 body{
 
-	background: lightblue;
+background: rgb(206,89,55);
+background: -moz-linear-gradient(top, rgb(206,89,55) 0%, rgb(28,110,164) 35%, rgb(197,146,55) 100%);
+background: -webkit-linear-gradient(top, rgb(206,89,55) 0%, rgb(28,110,164) 35%, rgb(197,146,55) 100%);
+background: linear-gradient(to bottom, rgb(206,89,55) 0%, rgb(28,110,164) 35%, rgb(197,146,55) 100%);
 }
 
 .topnav {
@@ -137,4 +140,19 @@ input[type=submit] {
     justify-content: center;
     text-align: center;
 
+}
+.card {
+ 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container {
+  padding: 2px 16px;
 }

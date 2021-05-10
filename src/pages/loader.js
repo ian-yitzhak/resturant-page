@@ -16,9 +16,29 @@ const pageLoad = () =>{
 
             <div class="image-section">
 
-            <img class="hero-img" src="./images/meal.jpg" alt="">
-            <img class="hero-img" src="./images/meal.jpg" alt="">
-            <img class="hero-img" src="./images/meal.jpg" alt="">
+                <div class="card">
+              <img src="images/meal3.jpg" alt="" style="width:100%">
+              <div class="container">
+                <h4><b>John Doe</b></h4>
+                
+              </div>
+            </div>
+
+             <div class="card">
+              <img src="images/meal4.jpg" alt="" style="width:100%">
+              <div class="container">
+                <h4><b>John Doe</b></h4>
+                
+              </div>
+            </div>
+
+             <div class="card">
+              <img src="images/meal2.jpg" alt="" style="width:100%">
+              <div class="container">
+                <h4><b>John Doe</b></h4>
+                
+              </div>
+            </div>
 
 
              </div>
